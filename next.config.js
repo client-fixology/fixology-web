@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  basePath: "/fixology-web",
+  output: "export",
   reactStrictMode: true,
   swcMinify: true,
   images: {
