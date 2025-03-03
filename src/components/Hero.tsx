@@ -6,7 +6,7 @@ export default function Hero() {
     <div className="relative h-screen">
       <div className="absolute inset-0">
         <Image
-          src="/images/hero-bg.jpg"
+          src="./images/hero-bg.jpg"
           alt="Auto repair hero background"
           fill
           priority

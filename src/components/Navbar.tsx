@@ -17,7 +17,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="flex items-center hover:text-primary">
               <Image
-                src="/images/logo/fixology-logo.svg"
+                src="./images/logo/fixology-logo.svg"
                 alt="Fixology Logo"
                 width={60}
                 height={60}

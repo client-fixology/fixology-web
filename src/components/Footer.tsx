@@ -13,7 +13,7 @@ export default function Footer() {
           <div className="col-span-1 my-auto">
             <Link href="/" className="flex items-center">
                 <Image
-                  src="/images/logo/fixology-logo-light.svg"
+                  src="./images/logo/fixology-logo-light.svg"
                   alt="Fixology Logo"
                   width={80}
                   height={80}

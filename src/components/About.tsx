@@ -33,7 +33,7 @@ export default function About() {
           <div className="mt-10 lg:mt-0">
             <div className="relative aspect-[3/2] w-full">
               <Image
-                src="/images/mechanic-working.png"
+                src="./images/mechanic-working.png"
                 alt="Mechanic working on a car"
                 fill
                 className="object-cover rounded-lg shadow-lg"
