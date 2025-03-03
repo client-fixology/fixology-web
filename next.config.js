@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/fixology-web",
+  basePath: "https://client-fixology.github.io/fixology-web",
   output: "export",
   reactStrictMode: true,
   swcMinify: true,
