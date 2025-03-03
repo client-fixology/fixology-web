@@ -16,7 +16,7 @@ export const services: ServiceType[] = [
     title: 'Diagnostic Services',
     description: 'Complete vehicle diagnostic using state-of-the-art equipment',
     price: 'From $79.99',
-    heroImage: './images/diagnostic-services.jpg',
+    heroImage: '../images/diagnostic-services.jpg',
     fullDescription: 'Our comprehensive diagnostic service uses the latest technology to identify any issues with your vehicle.',
     features: [
       'Full computer diagnostic scan',
@@ -37,7 +37,7 @@ export const services: ServiceType[] = [
     title: 'Oil Change',
     description: 'Full synthetic oil change with filter replacement',
     price: 'From $49.99',
-    heroImage: './images/oil-change.jpg',
+    heroImage: '../images/oil-change.jpg',
     fullDescription: 'Keep your engine running smoothly with our professional oil change service.',
     features: [
       'Full synthetic oil',
@@ -58,7 +58,7 @@ export const services: ServiceType[] = [
     title: 'Brake Services',
     description: 'Brake pad replacement and brake system inspection',
     price: 'From $149.99',
-    heroImage: './images/brake-service.jpg',
+    heroImage: '../images/brake-service.jpg',
     fullDescription: 'Ensure your safety with our comprehensive brake service and inspection.',
     features: [
       'Brake pad replacement',
@@ -79,7 +79,7 @@ export const services: ServiceType[] = [
     title: 'Electrical Systems',
     description: 'Battery testing, replacement, and electrical system check',
     price: 'From $89.99',
-    heroImage: './images/battery-service.jpg',
+    heroImage: '../images/battery-service.jpg',
     fullDescription: 'Don\'t get stranded with a dead battery. Let us test and service your vehicle\'s electrical system.',
     features: [
       'Battery load testing',
@@ -100,7 +100,7 @@ export const services: ServiceType[] = [
     title: 'Front-End Suspension',
     description: 'Complete suspension inspection and repair service',
     price: 'From $199.99',
-    heroImage: './images/suspension-service.jpg',
+    heroImage: '../images/suspension-service.jpg',
     fullDescription: 'Expert suspension service to ensure smooth handling and optimal vehicle performance.',
     features: [
       'Strut/shock inspection',
@@ -121,7 +121,7 @@ export const services: ServiceType[] = [
     title: 'Coolant System',
     description: 'Comprehensive cooling system service and maintenance',
     price: 'From $129.99',
-    heroImage: './images/coolant-service.jpg',
+    heroImage: '../images/coolant-service.jpg',
     fullDescription: 'Complete cooling system inspection and service to prevent overheating and ensure proper engine temperature.',
     features: [
       'Coolant flush',
@@ -142,7 +142,7 @@ export const services: ServiceType[] = [
     title: 'Fuel System',
     description: 'Fuel system cleaning and maintenance service',
     price: 'From $149.99',
-    heroImage: './images/fuel-service.jpg',
+    heroImage: '../images/fuel-service.jpg',
     fullDescription: 'Professional fuel system service to restore performance and improve fuel efficiency.',
     features: [
       'Fuel injection cleaning',
@@ -163,7 +163,7 @@ export const services: ServiceType[] = [
     title: 'Filter Replacement',
     description: 'Complete vehicle filter replacement service',
     price: 'From $89.99',
-    heroImage: './images/filter-service.jpg',
+    heroImage: '../images/filter-service.jpg',
     fullDescription: 'Professional replacement of all major vehicle filters to maintain optimal performance.',
     features: [
       'Air filter replacement',
