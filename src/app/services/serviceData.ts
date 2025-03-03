@@ -51,7 +51,7 @@ export const services: ServiceType[] = [
       'Reduce engine wear',
       'Maintain warranty'
     ],
-    special: falsehttps://client-fixology.github.io/fixology-web/
+    special: false
   },
   {
     id: 'brake-service',
