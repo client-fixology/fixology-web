@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@plugin "@tailwindcss/typography";
 
 @layer base {
   :root {
@@ -12,20 +13,23 @@
     @apply text-neutral-800 bg-neutral-100;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply font-display font-bold text-primary;
   }
 }
 
 @layer components {
   .btn-primary {
-    @apply px-6 py-3 bg-primary text-white rounded-lg shadow-button 
-           hover:bg-primary-light transition-colors duration-200;
+    @apply px-6 py-3 bg-primary text-white rounded-lg shadow-button hover:bg-primary-light transition-colors duration-200;
   }
-  
+
   .btn-secondary {
-    @apply px-6 py-3 bg-secondary text-white rounded-lg shadow-button 
-           hover:bg-secondary-light transition-colors duration-200;
+    @apply px-6 py-3 bg-secondary text-white rounded-lg shadow-button hover:bg-secondary-light transition-colors duration-200;
   }
 
   .card {
